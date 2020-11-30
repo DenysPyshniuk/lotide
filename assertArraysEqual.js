@@ -1,5 +1,4 @@
-// FUNCTION IMPLEMENTATION
-//assertion of equality
+//Copy "assertEqual" function
 const assertEqual = function(actual, expected) {
   //if actual is equal to expected then console log that assertion passed
   if (actual === expected) {
@@ -9,7 +8,8 @@ const assertEqual = function(actual, expected) {
     console.log(`🛑️Assertion Failed: ${actual} !== ${expected}`);
   }
 };
-//function to check if arrays are equal, returns only true or false
+
+//Copy "eqArrays" function
 const eqArrays = function (arr1, arr2) {
   for (let i = 0; i < arr1.length; i++) {
     if (arr1[i] !== arr2[i]) {
@@ -18,6 +18,8 @@ const eqArrays = function (arr1, arr2) {
   }
   return true;
 };
+
+// FUNCTION 'assertArraysEqual' IMPLEMENTATION
 //function to check if arrays are equal, console log that arrays are equal or not
 const assertArraysEqual = function (arr1, arr2) {
   if (eqArrays(arr1, arr2)) {
