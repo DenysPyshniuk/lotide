@@ -28,3 +28,5 @@ const countLetters = function(str) {
 };
 
 //assertEqual(countLetters("lighthouse in the house")['t'], [2]);
+
+module.exports = countLetters;
